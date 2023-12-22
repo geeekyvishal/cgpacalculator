@@ -5,7 +5,7 @@ function calculateCGPA() {
     let totalCredits = 18;
 
     courses.forEach(course => {
-        const credit = (course.value === "0") ? 0 : 4; // Assigning 0 credits for failed courses
+        const credit = (course.value === "0") ? 0 : 4; 
         // totalPoints += parseInt(course.value) * credit;
         totalPoints += parseInt(course.value);
         // totalCredits += credit;
