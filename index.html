@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CGPA Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator - 1st Semester</h1>
+        <form id="cgpaForm">
+            <div class="course">
+                <label>Calculus for Data Science:</label>
+                <input type="radio" name="course1" value="40"> AA
+                <input type="radio" name="course1" value="36"> AB
+                <input type="radio" name="course1" value="32"> BB
+                <input type="radio" name="course1" value="28"> BC
+                <input type="radio" name="course1" value="24"> CC
+                <input type="radio" name="course1" value="20"> CD
+                <input type="radio" name="course1" value="16"> DD
+            </div>
+            <div class="course">
+                <label>Computer Programming:</label>
+                <!-- Repeat the radio buttons for each course -->
+                <input type="radio" name="course2" value="40"> AA
+                <input type="radio" name="course2" value="36"> AB
+                <input type="radio" name="course2" value="32"> BB
+                <input type="radio" name="course2" value="28"> BC
+                <input type="radio" name="course2" value="24"> CC
+                <input type="radio" name="course2" value="20"> CD
+                <input type="radio" name="course2" value="16"> DD
+            </div>
+            <div class="course">
+                <label>Introduction to Data & Analytics:</label>
+                <!-- Repeat the radio buttons for each course -->
+                <input type="radio" name="course3" value="40"> AA
+                <input type="radio" name="course3" value="36"> AB
+                <input type="radio" name="course3" value="32"> BB
+                <input type="radio" name="course3" value="28"> BC
+                <input type="radio" name="course3" value="24"> CC
+                <input type="radio" name="course3" value="20"> CD
+                <input type="radio" name="course3" value="16"> DD
+            </div>
+            <div class="course">
+                <label>Communication Skills:</label>
+                <!-- Repeat the radio buttons for each course -->
+                <input type="radio" name="course4" value="30"> AA
+                <input type="radio" name="course4" value="27"> AB
+                <input type="radio" name="course4" value="24"> BB
+                <input type="radio" name="course4" value="21"> BC
+                <input type="radio" name="course4" value="18"> CC
+                <input type="radio" name="course4" value="15"> CD
+                <input type="radio" name="course4" value="12"> DD
+            </div>
+            <div class="course">
+                <label>Professional Ethics:</label>
+                <!-- Repeat the radio buttons for each course -->
+                <input type="radio" name="course5" value="30"> AA
+                <input type="radio" name="course5" value="27"> AB
+                <input type="radio" name="course5" value="24"> BB
+                <input type="radio" name="course5" value="21"> BC
+                <input type="radio" name="course5" value="18"> CC
+                <input type="radio" name="course5" value="15"> CD
+                <input type="radio" name="course5" value="12"> DD
+            </div>
+            <!-- Repeat for other courses -->
+
+            <button type="button" onclick="calculateCGPA()">Calculate CGPA</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <div class="container">
+        <center>
+        Once a smart guy said "marks, money and age are just numbers"
+        <br>
+
+            Happy National Maths Day
+        </center>
+    </div>
+
+    <div class="container">
+        <center>
+            
+            <strong>
+
+                After Death
+            </strong>
+            <br>
+            <br>
+
+            <img src="meme but reality.png" alt="" height="500" >
+        </center>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
